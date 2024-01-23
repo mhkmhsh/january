@@ -1,12 +1,28 @@
 body {
     background-image:url(https://bestanimations.com/media/stars/924861447stars-sky-space-gif-4.gif) ;
-    background-size: cover;
+ 
     background-position: center center;
     background-attachment: fixed;
     justify-content: center;
 }
 
+span#newspaper::before {
+    content: "";
+    animation: animate 7s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    padding: 0;
+  }
 
+  @keyframes animate {
+    0%{
+        image:url(images/newspaper-back.jpg);
+     
+    }
+    100%{
+
+    }
+  }
 #content {
 
 }
