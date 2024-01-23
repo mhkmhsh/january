@@ -1,6 +1,9 @@
 body {
     background-image:url(https://bestanimations.com/media/stars/924861447stars-sky-space-gif-4.gif) ;
-
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    justify-content: center;
 }
 
 
