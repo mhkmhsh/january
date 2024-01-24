@@ -1,29 +1,60 @@
 body {
-    background-image:url(https://bestanimations.com/media/stars/924861447stars-sky-space-gif-4.gif) ;
- 
-    background-position: center center;
-    background-attachment: fixed;
-    justify-content: center;
+  background:#fefdea;
+
+  background-position: center center;
+  background-attachment: fixed;
+  justify-content: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 span#newspaper::before {
-    content: "";
-    animation: animate 7s;
-    animation-delay: 0.5s;
-    animation-fill-mode: forwards;
-    padding: 0;
-  }
+  content: "";
+  animation: animate 7s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  padding: 0;
+}
 
-  @keyframes animate {
-    0%{
-        image:url(images/newspaper-back.jpg);
-     
-    }
-    100%{
+@keyframes animate {
+  0% {}
 
-    }
-  }
-#content {
+  100% {}
+}
+
+#newspaper {
+  position: relative;
+  animation-delay: 2s;
+  animation: news 3s linear;
+  animation-timing-function: ease-in;
 
 }
 
+#text {
+  z-index: 1;
+  position:absolute;
+  animation-delay: 2s;
+  animation: news 3s linear;
+  animation-timing-function: ease-in;
+}
+
+@keyframes news {
+  0% {
+    content: "";
+  }
+  80% {
+    content: "JULY 17TH";
+  }
+
+  100% {
+    transform: translateX(100%)
+   
+  }
+}
+
+header,
+footer {
+  background: #810f0f
+}
