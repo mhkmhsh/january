@@ -4,7 +4,7 @@ body {
   background-position: center center;
   background-attachment: fixed;
   justify-content: center;
-  overflow: hidden;
+
 
 
 }
@@ -16,7 +16,7 @@ body {
   }
   
   h2 {
-	  font-size: 15vw !important;
+	  font-size: 40vw !important;
   }
 }
 
@@ -169,6 +169,6 @@ section.page-container {
 }
 
 
-h2{
-  font-size:larger;
+h2#birth{
+  font-size:900%;
 }
