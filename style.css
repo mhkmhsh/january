@@ -171,5 +171,13 @@ section.page-container {
 
 
 h2{
-  font-size: 15vw;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+ color:transparent;
+  background-image:url("Images/newspaper-back.svg");
+  background-size:120%;
+  font-size: 900%;
+  margin:auto;
+  z-index:front;
+
 }
