@@ -97,7 +97,6 @@ body {
 	list-style: none;
 	display: -webkit-flex;
 	display: flex;
-	-webkit-justify-content: space-between;
 	justify-content: space-between;
 	flex-wrap: nowrap;
 
@@ -118,7 +117,7 @@ body {
 			top: 3px;
 			background: transparent;
 			transition: top .3s ease-out;
-			-webkit-transition: top .3s ease-out;
+			
 		}
 		
 		&:hover:after {
@@ -171,13 +170,5 @@ section.page-container {
 
 
 h2{
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
- color:transparent;
-  background-image:url("Images/newspaper-back.svg");
-  background-size:120%;
-  font-size: 900%;
-  margin:auto;
-  z-index:front;
-
+  font-size:larger;
 }
