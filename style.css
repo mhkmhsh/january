@@ -4,7 +4,7 @@ body {
   background-position: center center;
   background-attachment: fixed;
   justify-content: center;
-
+overflow-y: hidden;
 
 
 }
@@ -169,6 +169,3 @@ section.page-container {
 }
 
 
-h2#birth{
-  font-size:900%;
-}
