@@ -13,3 +13,13 @@ myButton.addEventListener("click", function() {
   }
   isFirstImage = !isFirstImage;
 });
+
+myPotsdam.addEventListener("click", function() {
+  if (isFirstImage) {
+    myWar.src = "images/potsdam.webp";
+  } else {
+    myWar.src = "images/war.jpg";
+    changeText.textContent = "It took place in Berlin"
+  }
+  isFirstImage = !isFirstImage;
+});
