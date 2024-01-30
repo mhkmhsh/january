@@ -1,6 +1,7 @@
 const myImg = document.getElementById("myImg");
 const myButton = document.getElementById("myButton");
-const changeText = document.getElementById("changeText")
+const myWar = document.getElementById("myWar");
+const myPotsdam = document.getElementById("myPotsdam");
 let isFirstImage = true;
 
 myButton.addEventListener("click", function() {
