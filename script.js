@@ -70,3 +70,13 @@ ferrari.addEventListener("click", function() {
   }
   isFirstImage = !isFirstImage;
 });
+
+jupiter.addEventListener("click", function() {
+  if (isFirstImage) {
+  moon.src = "images/jupiter.jpg";
+  } else {
+  moon.src = "images/moons.webp";
+    fliprepeat.textContent = "12 new moons were found"
+  }
+  isFirstImage = !isFirstImage;
+});
