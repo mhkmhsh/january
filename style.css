@@ -62,7 +62,7 @@ a {
 span {
 	font-size: 15px;
 }
-}
+
 
 .button-row-container {
 	width: 250px;
@@ -94,7 +94,6 @@ span {
 	width: 500px;
 	margin: auto;
 	margin-top: 20px;
-	font-family: $Lato;
 	font-size: 13px;
 	font-weight: 400;
 	letter-spacing: 2px;
@@ -105,7 +104,7 @@ span {
 	flex-wrap: nowrap;
 
 	a {
-		color: $dark-gray;
+		color: darkgray;
 		text-decoration: none;
 	}
 
@@ -169,5 +168,4 @@ span {
 			font-weight: 300;
 			color: #3c3c3c;
 			margin-bottom: 30px;
-		}
-	}
+		}}}
