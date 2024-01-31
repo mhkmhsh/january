@@ -1,7 +1,21 @@
 const myImg = document.getElementById("myImg");
+
+
 const myButton = document.getElementById("myButton");
+
+
 const myWar = document.getElementById("myWar");
+
+
 const myPotsdam = document.getElementById("myPotsdam");
+
+
+const myBirth = document.getElementById("myBirth");
+
+
+const myDay = document.getElementById("myDay");
+
+
 let isFirstImage = true;
 
 myButton.addEventListener("click", function() {
@@ -14,12 +28,25 @@ myButton.addEventListener("click", function() {
   isFirstImage = !isFirstImage;
 });
 
+
 myPotsdam.addEventListener("click", function() {
   if (isFirstImage) {
     myWar.src = "images/potsdam.webp";
   } else {
     myWar.src = "images/war.jpg";
     changeText.textContent = "It took place in Berlin"
+  }
+  isFirstImage = !isFirstImage;
+});
+
+
+
+myBirth.addEventListener("click", function() {
+  if (isFirstImage) {
+    myDay.src = "images/lilbaby.jpg";
+  } else {
+    myDay.src = "images/datme.jpg";
+    changeText.textContent = "I was a grump"
   }
   isFirstImage = !isFirstImage;
 });
