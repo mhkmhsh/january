@@ -23,6 +23,9 @@ const flip = document.getElementById("textCh");
 
 const flipAgain = document.getElementById("textCha");
 
+const fliprepeat = document.getElementById("textChan");
+const  jupiter= document.getElementById("jupiter");
+const moon = document.getElementById("moon");
 let isFirstImage = true;
 
 myButton.addEventListener("click", function() {
