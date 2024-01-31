@@ -15,6 +15,10 @@ const myBirth = document.getElementById("myBirth");
 
 const myDay = document.getElementById("myDay");
 
+const changeText = document.getElementById("textChange");
+const textCha = document.getElementById("textC");
+const flip = document.getElementById("textCh");
+const flipAgain = document.getElementById("textCha");
 
 let isFirstImage = true;
 
@@ -34,7 +38,7 @@ myPotsdam.addEventListener("click", function() {
     myWar.src = "images/potsdam.webp";
   } else {
     myWar.src = "images/war.jpg";
-    changeText.textContent = "It took place in Berlin"
+    textCha.textContent = "It took place in Berlin"
   }
   isFirstImage = !isFirstImage;
 });
@@ -46,7 +50,17 @@ myDay.addEventListener("click", function() {
     myBirth.src = "images/lilbaby.jpg";
   } else {
     myBirth.src = "images/datme.jpg";
-    changeText.textContent = "I was a grump"
+    flip.textContent = "I was a grump"
+  }
+  isFirstImage = !isFirstImage;
+});
+
+ferrari.addEventListener("click", function() {
+  if (isFirstImage) {
+    julesBianchi.src = "images/jules-bianchi.jpg";
+  } else {
+    julesBianchi.src = "images/jules.webp";
+    flipAgain.textContent = "His godson Charles races for Ferrari now."
   }
   isFirstImage = !isFirstImage;
 });
