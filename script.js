@@ -24,8 +24,11 @@ const flip = document.getElementById("textCh");
 const flipAgain = document.getElementById("textCha");
 
 const fliprepeat = document.getElementById("textChan");
-const  jupiter= document.getElementById("jupiter");
+
+const jupiter = document.getElementById("jupiter");
+
 const moon = document.getElementById("moon");
+
 let isFirstImage = true;
 
 myButton.addEventListener("click", function() {
@@ -71,11 +74,11 @@ ferrari.addEventListener("click", function() {
   isFirstImage = !isFirstImage;
 });
 
-jupiter.addEventListener("click", function() {
+moon.addEventListener("click", function() {
   if (isFirstImage) {
-  moon.src = "images/jupiter.jpg";
+  jupiter.src = "images/jupiter_moons.webp";
   } else {
-  moon.src = "images/moons.webp";
+  jupiter.src = "images/jules.jpg";
     fliprepeat.textContent = "12 new moons were found"
   }
   isFirstImage = !isFirstImage;
