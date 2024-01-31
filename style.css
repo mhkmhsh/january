@@ -104,7 +104,7 @@ span {
 	flex-wrap: nowrap;
 
 	a {
-		color: darkgray;
+		color: #fefdea;
 		text-decoration: none;
 	}
 
@@ -149,6 +149,7 @@ span {
 
 	#intro {
 		max-width: 800px;
+		
 
 		.section-container {
 			margin-top: 70px;
@@ -169,3 +170,10 @@ span {
 			color: #3c3c3c;
 			margin-bottom: 30px;
 		}}}
+
+		h1{
+			font-family: 'Orbitron', sans-serif;
+		}
+		footer{
+			font-family: 'Orbitron', sans-serif;
+		}

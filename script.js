@@ -16,8 +16,11 @@ const myBirth = document.getElementById("myBirth");
 const myDay = document.getElementById("myDay");
 
 const changeText = document.getElementById("textChange");
+
 const textCha = document.getElementById("textC");
+
 const flip = document.getElementById("textCh");
+
 const flipAgain = document.getElementById("textCha");
 
 let isFirstImage = true;
