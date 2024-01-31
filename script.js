@@ -41,11 +41,11 @@ myPotsdam.addEventListener("click", function() {
 
 
 
-myBirth.addEventListener("click", function() {
+myDay.addEventListener("click", function() {
   if (isFirstImage) {
-    myDay.src = "images/lilbaby.jpg";
+    myBirth.src = "images/lilbaby.jpg";
   } else {
-    myDay.src = "images/datme.jpg";
+    myBirth.src = "images/datme.jpg";
     changeText.textContent = "I was a grump"
   }
   isFirstImage = !isFirstImage;
