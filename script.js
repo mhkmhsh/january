@@ -15,20 +15,25 @@ const myBirth = document.getElementById("myBirth");
 
 const myDay = document.getElementById("myDay");
 
-const changeText = document.getElementById("textChange");
+const ferrari = document.getElementById("ferrari")
 
-const textCha = document.getElementById("textC");
+const jupiter = document.getElementById("jupiter");
 
-const flip = document.getElementById("textCh");
-
-const flipAgain = document.getElementById("textCha");
-
-const fliprepeat = document.getElementById("textChan");
-const  jupiter= document.getElementById("jupiter");
 const moon = document.getElementById("moon");
+
+const changeText = document.getElementById("changeText");
+
+const textC = document.getElementById("textC");
+
+const textCh = document.getElementById("textCh");
+
+const textCha = document.getElementById("textCha");
+
+const textChan = document.getElementById("textChan");
+
 let isFirstImage = true;
 
-myButton.addEventListener("click", function() {
+myButton.addEventListener("click", function () {
   if (isFirstImage) {
     myImg.src = "images/romanovs.jpg";
   } else {
@@ -39,44 +44,44 @@ myButton.addEventListener("click", function() {
 });
 
 
-myPotsdam.addEventListener("click", function() {
+myPotsdam.addEventListener("click", function () {
   if (isFirstImage) {
     myWar.src = "images/potsdam.webp";
   } else {
     myWar.src = "images/war.jpg";
-    textCha.textContent = "It took place in Berlin"
+    textC.textContent = "It took place in Berlin"
   }
   isFirstImage = !isFirstImage;
 });
 
 
 
-myDay.addEventListener("click", function() {
+myDay.addEventListener("click", function () {
   if (isFirstImage) {
     myBirth.src = "images/lilbaby.jpg";
   } else {
     myBirth.src = "images/datme.jpg";
-    flip.textContent = "I was a grump"
+    textCh.textContent = "I was a grump"
   }
   isFirstImage = !isFirstImage;
 });
 
-ferrari.addEventListener("click", function() {
+ferrari.addEventListener("click", function () {
   if (isFirstImage) {
     julesBianchi.src = "images/jules-bianchi.jpg";
   } else {
     julesBianchi.src = "images/jules.webp";
-    flipAgain.textContent = "His godson Charles races for Ferrari now."
+    textCha.textContent = "His godson Charles races for Ferrari now."
   }
   isFirstImage = !isFirstImage;
 });
 
-jupiter.addEventListener("click", function() {
+jupiter.addEventListener("click", function () {
   if (isFirstImage) {
-  moon.src = "images/jupiter.jpg";
+    moon.src = "images/jupiter.jpg";
   } else {
-  moon.src = "images/moons.webp";
-    fliprepeat.textContent = "12 new moons were found"
+    moon.src = "images/moons.webp";
+    textChan.textContent = "12 new moons were found"
   }
   isFirstImage = !isFirstImage;
 });
