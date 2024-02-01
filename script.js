@@ -17,13 +17,13 @@ const myDay = document.getElementById("myDay");
 
 const changeText = document.getElementById("textChange");
 
-const textCha = document.getElementById("textC");
+const textC = document.getElementById("textC");
 
 const flip = document.getElementById("textCh");
 
-const flipAgain = document.getElementById("textCha");
+const flipAgain = document.getElementById("flipAgain");
 
-const fliprepeat = document.getElementById("textChan");
+const fliprepeat = document.getElementById("fliprepeat");
 
 const jupiter = document.getElementById("jupiter");
 
@@ -53,7 +53,7 @@ myPotsdam.addEventListener("click", function() {
     myWar.src = "images/potsdam.webp";
   } else {
     myWar.src = "images/war.jpg";
-    textCha.textContent = "It took place in Berlin"
+    textC.textContent = "It took place in Berlin"
   }
   isFirstImage = !isFirstImage;
 });
