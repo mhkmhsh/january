@@ -50,7 +50,7 @@ myPotsdam.addEventListener("click", function () {
   } else {
     myWar.src = "images/war.jpg";
     textC.textContent = "It took place in Berlin"
-    textC.textContent = "It took place in Berlin"
+    
   }
   isFirstImage = !isFirstImage;
 });
