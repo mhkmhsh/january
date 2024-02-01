@@ -19,7 +19,7 @@ const ferrari = document.getElementById("ferrari")
 
 const jupiter = document.getElementById("jupiter");
 
-const moon = document.getElementById("moon");
+const moony = document.getElementById("moony");
 
 const changeText = document.getElementById("changeText");
 
@@ -77,11 +77,11 @@ ferrari.addEventListener("click", function () {
   isFirstImage = !isFirstImage;
 });
 
-jupiter.addEventListener("click", function () {
+moony.addEventListener("click", function () {
   if (isFirstImage) {
-    moon.src = "images/jupiter.jpg";
+    jupiter.src = "images/jupie.jpg";
   } else {
-    moon.src = "images/moons.webp";
+    jupiter.src = "images/jupiter.jpg";
     textChan.textContent = "12 new moons were found"
   }
   isFirstImage = !isFirstImage;
