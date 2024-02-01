@@ -28,7 +28,11 @@ const fliprepeat = document.getElementById("textChan");
 const jupiter = document.getElementById("jupiter");
 
 const moon = document.getElementById("moon");
+
+
 const julesBianchi = document.getElementById("julesBianchi");
+
+
 const ferrari = document.getElementById("ferrari");
 
 let isFirstImage = true;
@@ -66,15 +70,6 @@ myDay.addEventListener("click", function() {
   isFirstImage = !isFirstImage;
 });
 
-moon.addEventListener("click", function() {
-  if (isFirstImage) {
-  jupiter.src = "images/jupiter_moons.webp";
-  } else {
-  jupiter.src = "images/jules.jpg";
-    fliprepeat.textContent = "12 new moons were found"
-  }
-  isFirstImage = !isFirstImage;
-});
 
 ferrari.addEventListener("click", function() {
   if (isFirstImage) {
@@ -82,6 +77,16 @@ ferrari.addEventListener("click", function() {
   } else {
     julesBianchi.src = "images/jules.webp";
     flipAgain.textContent = "His godson Charles races for Ferrari now."
+  }
+  isFirstImage = !isFirstImage;
+});
+
+moon.addEventListener("click", function() {
+  if (isFirstImage) {
+  jupiter.src = "images/jupiter_moons.webp";
+  } else {
+  jupiter.src = "images/jules.jpg";
+    fliprepeat.textContent = "12 new moons were found"
   }
   isFirstImage = !isFirstImage;
 });
