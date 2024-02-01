@@ -1,17 +1,12 @@
 const myImg = document.getElementById("myImg");
 
-
 const myButton = document.getElementById("myButton");
-
 
 const myWar = document.getElementById("myWar");
 
-
 const myPotsdam = document.getElementById("myPotsdam");
 
-
 const myBirth = document.getElementById("myBirth");
-
 
 const myDay = document.getElementById("myDay");
 
