@@ -85,7 +85,7 @@ moon.addEventListener("click", function() {
   if (isFirstImage) {
   jupiter.src = "images/jupiter_moons.webp";
   } else {
-  jupiter.src = "images/jules.jpg";
+  jupiter.src = "images/jupiter.jpg";
     fliprepeat.textContent = "12 new moons were found"
   }
   isFirstImage = !isFirstImage;
