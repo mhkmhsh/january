@@ -84,10 +84,10 @@ ferrari.addEventListener("click", function() {
 
 moon.addEventListener("click", function() {
   if (isFirstImage) {
-    jupiter.src = "images/jupe.webp";
-  } else {
     jupiter.src = "images/jupiter.jpg";
-    fliprepeat.textContent = "His godson Charles races for Ferrari now."
+  } else {
+    jupiter.src = "images/jupe.webp";
+    fliprepeat.textContent = "12 moons were found."
   }
   isFirstImage = !isFirstImage;
 });
