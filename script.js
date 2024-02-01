@@ -81,12 +81,13 @@ ferrari.addEventListener("click", function() {
   isFirstImage = !isFirstImage;
 });
 
+
 moon.addEventListener("click", function() {
   if (isFirstImage) {
-  jupiter.src = "images/jupiter_moons.webp";
+    jupiter.src = "images/jupe.webp";
   } else {
-  jupiter.src = "images/jupiter.jpg";
-    fliprepeat.textContent = "12 new moons were found"
+    jupiter.src = "images/jupiter.jpg";
+    fliprepeat.textContent = "His godson Charles races for Ferrari now."
   }
   isFirstImage = !isFirstImage;
 });
