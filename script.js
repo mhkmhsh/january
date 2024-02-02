@@ -12,9 +12,9 @@ const myDay = document.getElementById("myDay");
 
 const ferrari = document.getElementById("ferrari")
 
-const jupiter = document.getElementById("jupiter");
+const oldBread = document.getElementById("oldBread")
 
-const moony = document.getElementById("moony");
+const bread = document.getElementById("bread")
 
 const changeText = document.getElementById("changeText");
 
@@ -62,22 +62,22 @@ myDay.addEventListener("click", function () {
   isFirstImage = !isFirstImage;
 });
 
+oldBread.addEventListener("click", function () {
+  if (isFirstImage) {
+   bread.src = "images/bread.jpg";
+  } else {
+   bread.src = "images/oldbread.webp";
+    textChan.textContent = "It was found in Jordan"
+  }
+  isFirstImage = !isFirstImage;
+});
+
 ferrari.addEventListener("click", function () {
   if (isFirstImage) {
     julesBianchi.src = "images/jules-bianchi.jpg";
   } else {
     julesBianchi.src = "images/jules.webp";
     textCha.textContent = "His godson Charles races for Ferrari now."
-  }
-  isFirstImage = !isFirstImage;
-});
-
-moony.addEventListener("click", function () {
-  if (isFirstImage) {
-    jupiter.src = "images/jupie.jpg";
-  } else {
-    jupiter.src = "images/jupiter.jpg";
-    textChan.textContent = "12 new moons were found"
   }
   isFirstImage = !isFirstImage;
 });
